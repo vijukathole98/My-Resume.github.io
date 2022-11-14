@@ -1,0 +1,5 @@
+// This function allow to reference async chunks
+__webpack_require__.miniCssF = function(chunkId) {
+	// return url for filenames based on template
+	return "static/css/" + chunkId + "." + {"271":"8600bb3c","385":"f01cca2f","588":"77ea37ac","598":"808d535d","866":"535b7ca2"}[chunkId] + ".chunk.css";
+};
